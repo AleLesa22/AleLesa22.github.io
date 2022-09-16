@@ -1,31 +1,31 @@
 /* MainDivContainer Style */
-.MainDivContainer {
+.main-div-container {
   margin-left: auto;
   margin-right: auto;
 }
 
 /* NameSurnameDiv */
-.NameSurnameDiv {
+.name-surname-div {
   background-color: #ba0001;
   margin-left: 14%;
   margin-right: 14%;
 }
 
 /* NameSurnameId */
-#NameSurnameId {
+#name-surname-id {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #f7d7dc;
 }
 
-#ProfessionId {
+#profession-id {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #f7d7dc;
 }
 
 /* Vertical Line Style */
-.VerticalLine {
+.vertical-line {
   border-left: 4px solid #cf303a;
   width: 1px;
   height: 100%;
@@ -35,45 +35,45 @@
 }
 
 /* SummaryDiv */
-.SummaryDiv {
+.summary-div {
   text-align: right;
   padding: 3%;
 }
 
 /* Education Div */
-.EducationDiv {
+.education-div {
   text-align: right;
   padding: 3%;
 }
 
 /* RelevantSkillsHeading */
-#RelevantSkillsHeading {
+#relevant-skills-heading {
   text-align: right;
   padding: 3%;
 }
 
 /* ProgressBarTabovi */
-.ProgressBarTabovi {
+.progress-bar-tabovi {
   margin-left: 70%;
 }
 
 /* ContactDiv */
-.ContactDiv {
+.contact-div {
   text-align: left;
   padding: 3%;
 }
 /* AboutMeDiv */
-.AboutMeDiv {
+.about-me-div {
   text-align: left;
   padding: 3%;
 }
 /* HobbiesDiv */
-.HobbiesDiv {
+.hobbies-div {
   text-align: left;
   padding: 3%;
 }
 /* lineSummaryContact */
-.lineSummaryContact {
+.line-summary-contact {
   border-bottom: 4px solid #f5999f;
   position: absolute;
   height: 1px;
@@ -82,7 +82,7 @@
   width: 50px;
 }
 /* dotSummaryContact */
-.dotSummaryContact {
+.dot-summary-contact {
   position: absolute;
   margin-top: -10%;
   margin-left: 0;
@@ -94,7 +94,7 @@
   background-color: #f5999f;
   border-radius: 50%;
 }
-.lineHobbies {
+.line-hobbies {
   border-bottom: 4px solid #f5999f;
   position: absolute;
   width: 20px;
@@ -103,7 +103,7 @@
   width: 30px;
 }
 /* dotSummaryContact */
-.dotHobbies {
+.dot-hobbies {
   position: absolute;
   margin-top: -15%;
   margin-left: 0;
@@ -115,7 +115,7 @@
   background-color: #f5999f;
   border-radius: 50%;
 }
-.lineEducation {
+.line-education {
   border-bottom: 4px solid #f5999f;
   position: absolute;
   width: 20px;
@@ -124,7 +124,7 @@
   width: 30px;
 }
 /* dotSummaryContact */
-.dotEducation {
+.dot-education {
   position: absolute;
   margin-top: -15%;
   margin-left: 0;
@@ -136,7 +136,7 @@
   background-color: #f5999f;
   border-radius: 50%;
 }
-.lineAboutMe {
+.line-about-me {
   border-bottom: 4px solid #f5999f;
   position: absolute;
   width: 20px;
@@ -145,7 +145,7 @@
   width: 30px;
 }
 /* dotSummaryContact */
-.dotAboutMe {
+.dot-about-me {
   position: absolute;
   margin-top: -15%;
   margin-left: 0;
@@ -157,7 +157,7 @@
   background-color: #f5999f;
   border-radius: 50%;
 }
-.lineRelevantSkills {
+.line-relevant-skills {
   border-bottom: 4px solid #f5999f;
   position: absolute;
   width: 20px;
@@ -166,7 +166,7 @@
   width: 30px;
 }
 /* dotSummaryContact */
-.dotRelevantSkills {
+.dot-relevant-skills {
   position: absolute;
   margin-top: -15%;
   margin-left: 0;
@@ -179,53 +179,53 @@
   border-radius: 50%;
 }
 
-#AboutMeId {
+#about-me-id {
   width: 50%;
   text-align: justify;
 }
 
 @media only screen and (max-width: 1330px) {
-  .lineAboutMe {
+  .line-about-me {
     top: 59%;
   }
 }
 
 /* Responsive */
 @media only screen and (max-width: 991px) {
-  .SummaryDiv {
+  .summary-div {
     text-align: center;
   }
 
-  .EducationDiv {
+  .education-div {
     text-align: center;
     margin-top: -18%;
   }
 
-  .ContactDiv {
+  .contact-div {
     text-align: center;
   }
 
   /* BAG BULLETS */
-  .HobbiesDiv {
+  .hobbies-div {
     text-align: center;
     width: 30%;
     margin-left: 35%;
   }
 
-  .AboutMeDiv {
+  .about-me-div {
     text-align: center;
   }
 
-  .VerticalLine {
+  .vertical-line {
     display: none;
   }
 
-  .ProgressBarovi {
+  .progress-barovi {
     margin-right: 35%;
     margin-top: -10%;
   }
 
-  #AboutMeId {
+  #about-me-id {
     margin-left: 30%;
   }
 }
